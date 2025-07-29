@@ -1,4 +1,9 @@
+import 'package:allia_project/container_widget/container_dua.dart';
+import 'package:allia_project/container_widget/container_satu.dart';
 import 'package:allia_project/main_layout.dart';
+import 'package:allia_project/stack_widget/stack_dua.dart';
+import 'package:allia_project/stack_widget/stack_satu.dart';
+import 'package:allia_project/stack_widget/stack_tiga.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -12,7 +17,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: HelloFlutter()
+      home: StackTwo()
     );
   }
 }
